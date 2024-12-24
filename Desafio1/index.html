@@ -8,10 +8,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <link rel="stylesheet" href="bulma/sass/themes/dark.scss">
 </head>
+<style>
+    #linksNavbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .linkContainer {
+        display: flex;
+    }
+</style>
 <body>
     <nav class="navbar" role="navigation">
         <div id="linksNavbar" class="navbar-menu is-active">
-          <div class="navbar-start">
+          <div class="linkContainer">
             <a class="navbar-item" href="http://127.0.0.1:5500/DesafiosJS/Desafio1/index.html">
               Desafio 1 - Somar dois números
             </a>
@@ -23,7 +34,6 @@
             </a>
           </div>
         </div>
-      </div>
     </nav>
     <button class="button is-primary" onclick="somarNumeros()">Somar Dois Números</button>
     <script src="script.js"></script>

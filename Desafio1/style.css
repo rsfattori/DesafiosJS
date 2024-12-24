@@ -11,9 +11,3 @@ button {
     margin-left: 10px;
     cursor: pointer;
 }
-
-.navbar {
-    display: flex; 
-    justify-content: center; 
-
-}
